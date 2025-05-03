@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import {gsap } from 'gsap'
+import gsap  from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
 
@@ -27,10 +27,9 @@ const ShowcaseSection = () => {
 					opacity: 1,
 					duration: 1,
 					delay: 0.3 * (index + 1),
-					ScrollTrigger: {
+					scrollTrigger: {
 						trigger: project,
 						start: 'top bottom-=100'
-
 					}
 				}
 			)

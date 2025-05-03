@@ -13,7 +13,7 @@ const HeroExperience = () => {
 		<OrbitControls enablePan={false} enableZoom={!isTablet} maxDistance={20} minDistance={5} minPolarAngle={Math.PI / 5} maxPolarAngle={Math.PI / 2} />
 
 		<group scale={isMobile? .7 : 1} position={[0, -3.5, 0]} rotation={[0, -Math.PI /4 ,0]}>
-			<Room/>
+			{/* <Room/> */}
 		</group>
 	</Canvas>
   )
